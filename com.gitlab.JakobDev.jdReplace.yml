@@ -1,9 +1,9 @@
 app-id: com.gitlab.JakobDev.jdReplace
 runtime: org.kde.Platform
-runtime-version: "6.3"
+runtime-version: '6.3'
 sdk: org.kde.Sdk
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: "6.3"
+base-version: '6.3'
 command: jdReplace
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
@@ -29,8 +29,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/JakobDev/jdReplace.git
-        tag: '3.0'
-        commit: e1384252217f4d92966e8164e2e94b7a156fcc3a
+        tag: '3.1'
+        commit: 05f1252aaf0f42be5d9988e4503f595b86a11255
         x-checker-data:
           type: git
           url: https://gitlab.com/JakobDev/jdReplace.git
